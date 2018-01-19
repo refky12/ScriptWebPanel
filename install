@@ -119,13 +119,13 @@ clear
 rm -rf /root/vpssim*
 
 prompt="Type in your choice: "
-options=("EngLish" "VietNamese" "Cancel")
+options=("EngLish" "Indonesia" "Cancel")
 echo "========================================================================="
 echo "VPSSIM Support Centos 6 (32 - 64 Bit) & Centos 7"
 echo "-------------------------------------------------------------------------"
 echo "You Should Use Centos 6 - 64 bit To Have The Best Performance."
 echo "-------------------------------------------------------------------------"
-echo "VPSSIM support: English & VietNamese. "
+echo "VPSSIM support: English & Indonesia. "
 echo "-------------------------------------------------------------------------"
 echo "After finished setup, If you want to change language for VPSSIM, using"
 echo "-------------------------------------------------------------------------"
