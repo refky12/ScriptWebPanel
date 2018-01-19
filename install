@@ -154,7 +154,7 @@ elif [ "$yourlanguage" = "indonesia" ]; then
 echo "----------------------------------------------------------------------------"
 echo "Please wait ..."
 sleep 2
-wget -q https://github.com/refky12/ScriptWebPanel/centos$(rpm -q --qf "%{VERSION}" $(rpm -q --whatprovides redhat-release))/vpssim-setup && chmod +x vpssim-setup && clear && ./vpssim-setup
+wget -qhttps://raw.githubusercontent.com/refky12/ScriptSSHMaster/master/$(rpm -q --qf "%{VERSION}" $(rpm -q --whatprovides redhat-release))/vpssim-setup && chmod +x vpssim-setup && clear && ./vpssim-setup
 else 
 rm -rf /root/install* && rm -rf /root/vpssim* && clear
 fi
