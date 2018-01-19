@@ -154,7 +154,7 @@ elif [ "$yourlanguage" = "indonesia" ]; then
 echo "----------------------------------------------------------------------------"
 echo "Please wait ..."
 sleep 2
-wget -qhttps://raw.githubusercontent.com/refky12/ScriptSSHMaster/master/vpssim-setup && chmod +x vpssim-setup && clear && ./vpssim-setup
+wget -q https://raw.githubusercontent.com/refky12/ScriptSSHMaster/master/vpssim-setup && chmod +x vpssim-setup && clear && ./vpssim-setup
 else 
 rm -rf /root/install* && rm -rf /root/vpssim* && clear
 fi
