@@ -14,7 +14,7 @@ vps="zvur";
 if [ $vps = "zvur" ]; then
         source="https://raw.githubusercontent.com/refky12/ScriptSSHMaster/master/"
 else
-        source="https://raw.githubusercontent.com/refky12/ScriptWebPanel/master/"
+        source="https://raw.githubusercontent.com/refky12/ScriptSSHMaster/master/"
 exit
 fi
 # check registered ip
